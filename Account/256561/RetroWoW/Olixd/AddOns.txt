@@ -1,0 +1,7 @@
+cooldowns: disabled
+LunaUnitFrames: disabled
+dpsmate: enabled
+aurae: disabled
+EnemyBuffTimersVanilla: disabled
+rais_AutoShot: disabled
+SHunterTimers: disabled

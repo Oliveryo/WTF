@@ -1,0 +1,12 @@
+
+MoveAnything_CustomFrames = {
+	[1] = {
+		["name"] = "BonusActionBarFrame",
+		["helpfulName"] = "BonusActionBarFrame",
+	},
+}
+MoveAnything_CharacterSettings = {
+	["default"] = {
+	},
+}
+MoveAnything_UseCharacterSettings = false

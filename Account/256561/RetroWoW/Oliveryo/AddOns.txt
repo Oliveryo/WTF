@@ -1,0 +1,17 @@
+pfUI: enabled
+Bartender2: disabled
+VanillaGuide: disabled
+EnemyBuffTimersVanilla: disabled
+EnemyFrames: enabled
+modifiedpowerauras: enabled
+dpsmate: enabled
+LunaUnitFrames: disabled
+MoveAnything: enabled
+ShaguChat: enabled
+aurae: disabled
+aux-addon: enabled
+LoseControl: disabled
+crafty: enabled
+cooldowns: disabled
+rais_AutoShot: disabled
+SHunterTimers: disabled

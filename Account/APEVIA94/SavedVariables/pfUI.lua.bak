@@ -1,0 +1,15 @@
+
+pfUI_playerDB = {
+	["Dudedix"] = {
+		["class"] = "PRIEST",
+		["level"] = 60,
+	},
+	["Sondeynette"] = {
+		["class"] = "PALADIN",
+		["level"] = 60,
+	},
+	["Oliveryo"] = {
+		["class"] = "WARRIOR",
+		["level"] = 60,
+	},
+}
