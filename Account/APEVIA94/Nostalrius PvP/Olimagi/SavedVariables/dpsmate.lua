@@ -10,14 +10,26 @@ DPSMateUser = {
 		[1] = 1,
 		[2] = 89,
 	},
-	["Hanmeimeic"] = {
-		[1] = 7,
-		[2] = "warrior",
-		[3] = -1,
+	["Wushuangjj"] = {
+		[1] = 12,
+		[2] = "rogue",
+		[3] = 1,
 		[8] = 60,
 	},
 	["Elder Mottled Boar"] = {
 		[1] = 5,
+	},
+	["Highengg"] = {
+		[1] = 11,
+		[2] = "mage",
+		[3] = 1,
+		[8] = 53,
+	},
+	["Olimagi"] = {
+		[1] = 2,
+		[2] = "mage",
+		[3] = -1,
+		[8] = 60,
 	},
 	["Fangpianqi"] = {
 		[1] = 9,
@@ -25,11 +37,11 @@ DPSMateUser = {
 		[3] = -1,
 		[8] = 12,
 	},
-	["Duboitje"] = {
-		[1] = 10,
+	["Hanmeimeic"] = {
+		[1] = 7,
 		[2] = "warrior",
 		[3] = -1,
-		[8] = 10,
+		[8] = 60,
 	},
 	["Thunder Lizard"] = {
 		[1] = 8,
@@ -40,11 +52,11 @@ DPSMateUser = {
 	["Lightning Hide"] = {
 		[1] = 6,
 	},
-	["Olimagi"] = {
-		[1] = 2,
-		[2] = "mage",
+	["Duboitje"] = {
+		[1] = 10,
+		[2] = "warrior",
 		[3] = -1,
-		[8] = 60,
+		[8] = 10,
 	},
 }
 DPSMateAbility = {
@@ -53,6 +65,9 @@ DPSMateAbility = {
 	},
 	["Arcane Intellect"] = {
 		[1] = 2,
+	},
+	["Resurrection Sickness"] = {
+		[1] = 11,
 	},
 	["Frostbolt"] = {
 		[1] = 10,
@@ -171,8 +186,38 @@ DPSMateThreat = {
 }
 DPSMateAurasGained = {
 	[1] = {
+		[2] = {
+			[3] = {
+				[1] = {
+					[1] = 1,
+				},
+				[2] = {
+				},
+				[3] = {
+					[4] = 1,
+				},
+				[4] = false,
+				[5] = 1,
+				[6] = 0,
+			},
+		},
 	},
 	[2] = {
+		[2] = {
+			[3] = {
+				[1] = {
+					[1] = 1,
+				},
+				[2] = {
+				},
+				[3] = {
+					[4] = 1,
+				},
+				[4] = false,
+				[5] = 1,
+				[6] = 0,
+			},
+		},
 	},
 }
 DPSMateCombatTime = {

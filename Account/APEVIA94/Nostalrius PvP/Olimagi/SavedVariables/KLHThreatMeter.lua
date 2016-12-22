@@ -16,9 +16,9 @@ KLHTM_SavedVariables = {
 			["self"] = {
 				["columnVis"] = {
 					["dam"] = true,
-					["pc"] = true,
-					["name"] = true,
 					["threat"] = true,
+					["name"] = true,
+					["pc"] = true,
 					["rage"] = false,
 					["hits"] = true,
 				},
@@ -37,9 +37,9 @@ KLHTM_SavedVariables = {
 				["hideBottomBar"] = false,
 				["rows"] = 10,
 				["columnVis"] = {
-					["threat"] = true,
-					["name"] = true,
 					["pc"] = true,
+					["name"] = true,
+					["threat"] = true,
 				},
 				["showAggroGain"] = true,
 				["resize"] = false,
@@ -50,7 +50,7 @@ KLHTM_SavedVariables = {
 				},
 			},
 			["buttonVis"] = {
-				["min"] = {
+				["max"] = {
 					["targ"] = false,
 					["close"] = true,
 					["view"] = false,
@@ -59,7 +59,7 @@ KLHTM_SavedVariables = {
 					["minmax"] = true,
 					["clear"] = false,
 				},
-				["max"] = {
+				["min"] = {
 					["targ"] = false,
 					["close"] = true,
 					["view"] = false,

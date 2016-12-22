@@ -13,7 +13,7 @@ aux-addon: enabled
 LoseControl: disabled
 crafty: enabled
 cooldowns: enabled
-rais_AutoShot: disabled
+rais_AutoShot: enabled
 Buffalo: disabled
 Bongos_MapBar: disabled
 Bongos: disabled
@@ -21,11 +21,11 @@ Bongos_ActionBar: disabled
 Bongos_Options: disabled
 Bongos_RollBar: disabled
 !ImprovedErrorFrame: enabled
-SHunterTimers: disabled
+SHunterTimers: enabled
 HealComm: enabled
 RageTracker: disabled
-MobHealth3_BlizzardFrames: enabled
-WIM: disabled
+MobHealth3_BlizzardFrames: disabled
+WIM: enabled
 AtlasLoot: enabled
 Atlas: enabled
 Prat: disabled
@@ -46,3 +46,7 @@ Cartographer: enabled
 Clean_Up_GUI: enabled
 DebuffTimers: enabled
 KLHThreatMeter: enabled
+MobHealth: disabled
+ShaguDB: enabled
+ShaguQuest: enabled
+!Questie: enabled
