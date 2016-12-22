@@ -37,11 +37,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Bijou's Belongings: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "Bijou's Belongings",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "Bijou's Belongings",
 		["level"] = 59,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[3777696418] = {
 		["objective1"] = {
@@ -50,11 +50,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Graveyard Assaulted: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "The Graveyards of Alterac",
-		["questTag"] = "PvP",
 		["leaderboards"] = 1,
+		["questName"] = "The Graveyards of Alterac",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "PvP",
 	},
 	[2755956098] = {
 		["objective1"] = {
@@ -63,7 +63,7 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "The Deed to Brill: 0/1",
 		},
-		["tracked"] = false,
+		["leaderboards"] = 4,
 		["objective4"] = {
 			["type"] = "item",
 			["notes"] = {
@@ -84,7 +84,7 @@ QuestieTrackedQuests = {
 		},
 		["questName"] = "Barov Family Fortune",
 		["questTag"] = "Dungeon",
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["level"] = 60,
 	},
 	[3755224288] = {
@@ -94,7 +94,7 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Molten Giant slain: 0/1",
 		},
-		["tracked"] = false,
+		["leaderboards"] = 4,
 		["objective4"] = {
 			["type"] = "monster",
 			["notes"] = {
@@ -115,7 +115,7 @@ QuestieTrackedQuests = {
 		},
 		["questName"] = "The Molten Core",
 		["questTag"] = "Raid",
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["level"] = 60,
 	},
 	[839408744] = {
@@ -125,10 +125,10 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Frostwolf Banner: 0/1",
 		},
-		["tracked"] = false,
+		["leaderboards"] = 1,
 		["questName"] = "Proving Grounds",
 		["level"] = 60,
-		["leaderboards"] = 1,
+		["tracked"] = false,
 	},
 	[3557100717] = {
 		["objective1"] = {
@@ -166,11 +166,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Siabi's Premium Tobacco: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "The Great Fras Siabi",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "The Great Fras Siabi",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[3929887800] = {
 		["objective1"] = {
@@ -179,11 +179,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Krastinov's Bag of Horrors: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "Krastinov's Bag of Horrors",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "Krastinov's Bag of Horrors",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[3141699824] = {
 		["objective1"] = {
@@ -192,11 +192,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Spire Spider Egg: 0/15",
 		},
-		["tracked"] = false,
-		["questName"] = "En-Ay-Es-Tee-Why",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "En-Ay-Es-Tee-Why",
 		["level"] = 59,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[4246966434] = {
 		["objective1"] = {
@@ -205,11 +205,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Korrak the Bloodrager slain: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "The Legend of Korrak",
-		["questTag"] = "Raid",
 		["leaderboards"] = 1,
+		["questName"] = "The Legend of Korrak",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "Raid",
 	},
 	[698120285] = {
 		["tracked"] = false,
@@ -225,11 +225,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Defeat Vanndar Stormpike.",
 		},
-		["tracked"] = false,
-		["questName"] = "The Battle for Alterac",
-		["questTag"] = "PvP",
 		["leaderboards"] = 1,
+		["questName"] = "The Battle for Alterac",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "PvP",
 	},
 	[3350102925] = {
 		["objective1"] = {
@@ -238,7 +238,7 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Bolt of Runecloth: 0/4",
 		},
-		["tracked"] = false,
+		["leaderboards"] = 4,
 		["objective4"] = {
 			["notes"] = {
 			},
@@ -260,7 +260,7 @@ QuestieTrackedQuests = {
 		},
 		["questName"] = "The Gordok Ogre Suit",
 		["questTag"] = "Dungeon",
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["level"] = 60,
 	},
 	[776018864] = {
@@ -295,11 +295,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Milked",
 		},
-		["tracked"] = false,
-		["questName"] = "Mother's Milk",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "Mother's Milk",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[222378296] = {
 		["objective1"] = {
@@ -331,11 +331,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Tower Captured: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "Towers and Bunkers",
-		["questTag"] = "PvP",
 		["leaderboards"] = 1,
+		["questName"] = "Towers and Bunkers",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "PvP",
 	},
 	[1832316216] = {
 		["objective1"] = {
@@ -344,11 +344,11 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Gauntlet of Gordok Might: 0/1",
 		},
-		["tracked"] = false,
-		["questName"] = "Unfinished Gordok Business",
-		["questTag"] = "Dungeon",
 		["leaderboards"] = 1,
+		["questName"] = "Unfinished Gordok Business",
 		["level"] = 60,
+		["tracked"] = false,
+		["questTag"] = "Dungeon",
 	},
 	[2678380656] = {
 		["objective1"] = {
@@ -357,7 +357,7 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Gemstone of Spirestone: 0/1",
 		},
-		["tracked"] = false,
+		["leaderboards"] = 4,
 		["objective4"] = {
 			["type"] = "item",
 			["notes"] = {
@@ -378,7 +378,7 @@ QuestieTrackedQuests = {
 		},
 		["questName"] = "Seal of Ascension",
 		["questTag"] = "Dungeon",
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["level"] = 60,
 	},
 }

@@ -165,7 +165,7 @@ QuestlogOptions = {
 	},
 }
 QuestLevel_Quest2Level = {
-	["The Matron Protectorate"] = "@x¤<60¤",
+	["The Graveyards of Alterac"] = "@x¤<60¤",
 	["Towers and Bunkers"] = "@x¤<60¤",
 	["The Great Fras Siabi"] = "@x¤<60¤",
 	["The Champion of the Horde"] = "<60¤",
@@ -179,11 +179,11 @@ QuestLevel_Quest2Level = {
 	["The Flesh Does Not Lie"] = "@x¤<60¤",
 	["Proving Grounds"] = "<60¤",
 	["Dwarven Outfitters"] = "<1¤",
-	["The Graveyards of Alterac"] = "@x¤<60¤",
+	["The Matron Protectorate"] = "@x¤<60¤",
 	["Bijou's Belongings"] = "@x¤<59¤",
-	["The Battle for Alterac"] = "@x¤<60¤",
-	["En-Ay-Es-Tee-Why"] = "@x¤<59¤",
 	["The Molten Core"] = "@x¤<60¤",
+	["En-Ay-Es-Tee-Why"] = "@x¤<59¤",
+	["The Battle for Alterac"] = "@x¤<60¤",
 	["Seal of Ascension"] = "@x¤<60¤",
 	["Coldridge Valley Mail Delivery"] = "<3¤",
 }

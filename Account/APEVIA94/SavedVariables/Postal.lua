@@ -1,7 +1,7 @@
 
 Postal_Characters = {
 	["Nostalrius PvP|Horde"] = {
-		["Olimagi"] = 399016.375,
+		["Olimagi"] = 402094.531,
 	},
 	["RetroWoW|Alliance"] = {
 		["Xdhunt"] = 29615.796,

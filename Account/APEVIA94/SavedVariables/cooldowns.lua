@@ -2,7 +2,7 @@
 cooldowns_settings = {
 	["PLAYER"] = {
 		["active"] = false,
-		["scale"] = 0.881,
+		["ignore_list"] = "",
 		["line"] = 10,
 		["skin"] = "elvui",
 		["locked"] = true,
@@ -15,11 +15,11 @@ cooldowns_settings = {
 		["orientation"] = "RD",
 		["spacing"] = 0,
 		["x"] = 422.4157687375615,
-		["ignore_list"] = "",
+		["scale"] = 0.881,
 	},
 	["TARGET"] = {
 		["active"] = true,
-		["scale"] = 0.881,
+		["ignore_list"] = "",
 		["line"] = 10,
 		["skin"] = "elvui",
 		["locked"] = true,
@@ -32,12 +32,12 @@ cooldowns_settings = {
 		["orientation"] = "RU",
 		["spacing"] = 0,
 		["x"] = 732.7259062153026,
-		["ignore_list"] = "",
+		["scale"] = 0.881,
 	},
 	["used"] = false,
 	["TARGETTARGET"] = {
 		["active"] = false,
-		["scale"] = 0.5,
+		["ignore_list"] = "",
 		["line"] = 10,
 		["skin"] = "elvui",
 		["locked"] = true,
@@ -50,6 +50,6 @@ cooldowns_settings = {
 		["orientation"] = "RU",
 		["spacing"] = 0,
 		["x"] = 1428.542301234711,
-		["ignore_list"] = "",
+		["scale"] = 0.5,
 	},
 }

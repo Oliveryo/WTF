@@ -10,7 +10,7 @@ RingMenu_settings = {
 	["colorB"] = 0,
 	["colorG"] = 0,
 	["colorR"] = 0,
-	["startPageID"] = 13,
+	["startPageID"] = 1,
 	["numButtons"] = 12,
 	["animationSpeedClose"] = 3,
 }

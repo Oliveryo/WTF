@@ -114,40 +114,14 @@ LunaDB = {
 					["incheal"] = {
 						["enabled"] = false,
 					},
-					["indicators"] = {
-						["icons"] = {
-							["raidTarget"] = {
-								["enabled"] = false,
-							},
-							["pvprank"] = {
-								["enabled"] = false,
-							},
-							["class"] = {
-								["enabled"] = false,
-							},
-							["leader"] = {
-								["enabled"] = false,
-							},
-							["ready"] = {
-								["enabled"] = false,
-							},
-							["status"] = {
-								["enabled"] = false,
-							},
-							["rezz"] = {
-								["enabled"] = false,
-							},
-							["masterLoot"] = {
-								["enabled"] = false,
-							},
-							["pvp"] = {
-								["enabled"] = false,
-							},
-						},
+					["highlight"] = {
+						["ondebuff"] = false,
+						["enabled"] = false,
 					},
 					["scale"] = 1.31,
-					["reckStacks"] = {
+					["totemBar"] = {
 						["enabled"] = false,
+						["hide"] = false,
 					},
 					["auras"] = {
 						["timertextenabled"] = false,
@@ -211,13 +185,39 @@ LunaDB = {
 					["portrait"] = {
 						["enabled"] = false,
 					},
-					["highlight"] = {
-						["ondebuff"] = false,
-						["enabled"] = false,
+					["indicators"] = {
+						["icons"] = {
+							["raidTarget"] = {
+								["enabled"] = false,
+							},
+							["pvprank"] = {
+								["enabled"] = false,
+							},
+							["class"] = {
+								["enabled"] = false,
+							},
+							["leader"] = {
+								["enabled"] = false,
+							},
+							["ready"] = {
+								["enabled"] = false,
+							},
+							["status"] = {
+								["enabled"] = false,
+							},
+							["rezz"] = {
+								["enabled"] = false,
+							},
+							["masterLoot"] = {
+								["enabled"] = false,
+							},
+							["pvp"] = {
+								["enabled"] = false,
+							},
+						},
 					},
-					["totemBar"] = {
+					["reckStacks"] = {
 						["enabled"] = false,
-						["hide"] = false,
 					},
 				},
 				["target"] = {

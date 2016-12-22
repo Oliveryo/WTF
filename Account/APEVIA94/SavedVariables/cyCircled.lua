@@ -1,5 +1,8 @@
 
 cyCircledDB = {
+	["disabled"] = {
+		["Default"] = true,
+	},
 	["profiles"] = {
 		["Default"] = {
 			["minimapPosition"] = 23.84095017009943,
