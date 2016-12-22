@@ -114,13 +114,40 @@ LunaDB = {
 					["incheal"] = {
 						["enabled"] = false,
 					},
-					["portrait"] = {
-						["enabled"] = false,
+					["indicators"] = {
+						["icons"] = {
+							["raidTarget"] = {
+								["enabled"] = false,
+							},
+							["pvprank"] = {
+								["enabled"] = false,
+							},
+							["class"] = {
+								["enabled"] = false,
+							},
+							["leader"] = {
+								["enabled"] = false,
+							},
+							["ready"] = {
+								["enabled"] = false,
+							},
+							["status"] = {
+								["enabled"] = false,
+							},
+							["rezz"] = {
+								["enabled"] = false,
+							},
+							["masterLoot"] = {
+								["enabled"] = false,
+							},
+							["pvp"] = {
+								["enabled"] = false,
+							},
+						},
 					},
 					["scale"] = 1.31,
-					["totemBar"] = {
+					["reckStacks"] = {
 						["enabled"] = false,
-						["hide"] = false,
 					},
 					["auras"] = {
 						["timertextenabled"] = false,
@@ -151,6 +178,7 @@ LunaDB = {
 						["enabled"] = false,
 					},
 					["tags"] = {
+						["enabled"] = false,
 						["bartags"] = {
 							["healthBar"] = {
 								["center"] = "",
@@ -163,61 +191,33 @@ LunaDB = {
 								["center"] = "",
 							},
 						},
-						["enabled"] = false,
 					},
 					["druidBar"] = {
 						["enabled"] = false,
 					},
-					["reckStacks"] = {
-						["enabled"] = false,
+					["powerBar"] = {
+						["vertical"] = false,
+						["size"] = 3,
+						["ticker"] = false,
+						["hide"] = false,
 					},
 					["combatText"] = {
-						["enabled"] = false,
-					},
-					["indicators"] = {
-						["icons"] = {
-							["rezz"] = {
-								["enabled"] = false,
-							},
-							["pvprank"] = {
-								["enabled"] = false,
-							},
-							["class"] = {
-								["enabled"] = false,
-							},
-							["leader"] = {
-								["enabled"] = false,
-							},
-							["pvp"] = {
-								["enabled"] = false,
-							},
-							["status"] = {
-								["enabled"] = false,
-							},
-							["raidTarget"] = {
-								["enabled"] = false,
-							},
-							["masterLoot"] = {
-								["enabled"] = false,
-							},
-							["ready"] = {
-								["enabled"] = false,
-							},
-						},
-					},
-					["highlight"] = {
-						["ondebuff"] = false,
 						["enabled"] = false,
 					},
 					["position"] = {
 						["y"] = -569.6657562974248,
 						["x"] = 567.5105151730762,
 					},
-					["powerBar"] = {
-						["vertical"] = false,
+					["portrait"] = {
+						["enabled"] = false,
+					},
+					["highlight"] = {
+						["ondebuff"] = false,
+						["enabled"] = false,
+					},
+					["totemBar"] = {
+						["enabled"] = false,
 						["hide"] = false,
-						["ticker"] = false,
-						["size"] = 3,
 					},
 				},
 				["target"] = {
@@ -269,7 +269,7 @@ LunaDB = {
 						},
 					},
 				},
-				["targettarget"] = {
+				["party"] = {
 					["barorder"] = {
 						["horizontal"] = {
 							[1] = "portrait",
@@ -292,7 +292,7 @@ LunaDB = {
 						},
 					},
 				},
-				["party"] = {
+				["targettarget"] = {
 					["barorder"] = {
 						["horizontal"] = {
 							[1] = "portrait",

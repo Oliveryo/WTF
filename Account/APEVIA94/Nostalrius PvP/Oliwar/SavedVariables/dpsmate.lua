@@ -18,20 +18,20 @@ DPSMateUser = {
 	["Rockjaw Trogg"] = {
 		[1] = 13,
 	},
-	["Elder Mottled Boar"] = {
-		[1] = 5,
-	},
 	["Duboitje"] = {
 		[1] = 10,
 		[2] = "warrior",
 		[3] = -1,
 		[8] = 10,
 	},
-	["Olimagi"] = {
-		[1] = 2,
-		[2] = "mage",
-		[3] = -1,
-		[8] = 60,
+	["Oliwar"] = {
+		[1] = 11,
+		[2] = "warrior",
+		[3] = 1,
+		[8] = 3,
+	},
+	["Lightning Hide"] = {
+		[1] = 6,
 	},
 	["Fangpianqi"] = {
 		[1] = 9,
@@ -49,14 +49,14 @@ DPSMateUser = {
 	["Unknown"] = {
 		[1] = 4,
 	},
-	["Lightning Hide"] = {
-		[1] = 6,
+	["Olimagi"] = {
+		[1] = 2,
+		[2] = "mage",
+		[3] = -1,
+		[8] = 60,
 	},
-	["Oliwar"] = {
-		[1] = 11,
-		[2] = "warrior",
-		[3] = 1,
-		[8] = 3,
+	["Elder Mottled Boar"] = {
+		[1] = 5,
 	},
 }
 DPSMateAbility = {
@@ -78,8 +78,8 @@ DPSMateAbility = {
 	["Shoot"] = {
 		[1] = 6,
 	},
-	["Heroic Strike"] = {
-		[1] = 11,
+	["Blue Skeletal Horse"] = {
+		[1] = 3,
 	},
 	["Frost Nova"] = {
 		[1] = 8,
@@ -90,8 +90,8 @@ DPSMateAbility = {
 	["Cone of Cold"] = {
 		[1] = 9,
 	},
-	["Blue Skeletal Horse"] = {
-		[1] = 3,
+	["Heroic Strike"] = {
+		[1] = 11,
 	},
 }
 DPSMateDamageDone = {

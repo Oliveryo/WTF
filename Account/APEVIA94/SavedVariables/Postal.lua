@@ -8,6 +8,6 @@ Postal_Characters = {
 		["Oliveryo"] = 33101.828,
 	},
 	["Nostalrius PvP|Alliance"] = {
-		["Oliwar"] = 9552.468000000001,
+		["Oliwar"] = 10218.187,
 	},
 }

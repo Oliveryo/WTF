@@ -1,8 +1,8 @@
 
 QuestlogOptions = {
-	["Oliwar-Nostalrius PvP"] = {
+	["Olimagi-Nostalrius PvP"] = {
 		["LockTracker"] = 0,
-		["AddNew"] = 1,
+		["AddNew"] = 0,
 		["InfoOnQuestCompletion"] = 0,
 		["CustomTooltipColor"] = 0,
 		["RestoreUponSelect"] = 1,
@@ -16,7 +16,7 @@ QuestlogOptions = {
 		["TrackerList"] = 0,
 		["FadeHeaderColor"] = 0,
 		["UseTrackerListing"] = 0,
-		["AddUntracked"] = 1,
+		["AddUntracked"] = 0,
 		["CustomObjetiveColor"] = 0,
 		["CustomTrackerBGColor"] = 0,
 		["SortTrackerItems"] = 0,
@@ -28,7 +28,6 @@ QuestlogOptions = {
 		},
 		["CustomZoneColor"] = 0,
 		["QuestWatches"] = {
-			[1] = "Coldridge Valley,1,Dwarven Outfitters",
 		},
 		["LockQuestLog"] = 1,
 		["MinimizeFinished"] = 0,
@@ -82,9 +81,9 @@ QuestlogOptions = {
 		["AutoCompleteQuests"] = 0,
 		["ShowZonesInTracker"] = 1,
 	},
-	["Olimagi-Nostalrius PvP"] = {
+	["Oliwar-Nostalrius PvP"] = {
 		["LockTracker"] = 0,
-		["AddNew"] = 0,
+		["AddNew"] = 1,
 		["InfoOnQuestCompletion"] = 0,
 		["CustomTooltipColor"] = 0,
 		["RestoreUponSelect"] = 1,
@@ -98,7 +97,7 @@ QuestlogOptions = {
 		["TrackerList"] = 0,
 		["FadeHeaderColor"] = 0,
 		["UseTrackerListing"] = 0,
-		["AddUntracked"] = 0,
+		["AddUntracked"] = 1,
 		["CustomObjetiveColor"] = 0,
 		["CustomTrackerBGColor"] = 0,
 		["SortTrackerItems"] = 0,
@@ -110,6 +109,7 @@ QuestlogOptions = {
 		},
 		["CustomZoneColor"] = 0,
 		["QuestWatches"] = {
+			[1] = "Coldridge Valley,1,Dwarven Outfitters",
 		},
 		["LockQuestLog"] = 1,
 		["MinimizeFinished"] = 0,
@@ -165,7 +165,7 @@ QuestlogOptions = {
 	},
 }
 QuestLevel_Quest2Level = {
-	["The Graveyards of Alterac"] = "@x¤<60¤",
+	["The Matron Protectorate"] = "@x¤<60¤",
 	["Towers and Bunkers"] = "@x¤<60¤",
 	["The Great Fras Siabi"] = "@x¤<60¤",
 	["The Champion of the Horde"] = "<60¤",
@@ -179,11 +179,11 @@ QuestLevel_Quest2Level = {
 	["The Flesh Does Not Lie"] = "@x¤<60¤",
 	["Proving Grounds"] = "<60¤",
 	["Dwarven Outfitters"] = "<1¤",
-	["The Matron Protectorate"] = "@x¤<60¤",
-	["Bijou's Belongings"] = "@x¤<59¤",
+	["Seal of Ascension"] = "@x¤<60¤",
+	["The Battle for Alterac"] = "@x¤<60¤",
 	["The Molten Core"] = "@x¤<60¤",
 	["En-Ay-Es-Tee-Why"] = "@x¤<59¤",
-	["The Battle for Alterac"] = "@x¤<60¤",
-	["Seal of Ascension"] = "@x¤<60¤",
+	["Bijou's Belongings"] = "@x¤<59¤",
+	["The Graveyards of Alterac"] = "@x¤<60¤",
 	["Coldridge Valley Mail Delivery"] = "<3¤",
 }

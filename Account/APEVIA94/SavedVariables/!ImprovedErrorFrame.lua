@@ -2,13 +2,13 @@
 IEFMinimapButton_OffsetX = 75.34099818314381
 IEFMinimapButton_OffsetY = 29.74449369070776
 ImprovedErrorSettings = {
-	["gagNoise"] = false,
+	["stackTraceCapture"] = false,
 	["emptyButton"] = false,
 	["alwaysShow"] = false,
-	["stackTraceCapture"] = false,
+	["gagNoise"] = false,
 	["blinkNotification"] = true,
-	["debugCapture"] = false,
-	["displayOnError"] = false,
 	["displayCount"] = true,
+	["displayOnError"] = false,
+	["debugCapture"] = false,
 	["XMLDebug"] = 0,
 }
