@@ -1,0 +1,25 @@
+
+VanillaGuideDBPC = {
+	["global"] = {
+		["CharInfo"] = {
+			["Race"] = "Human",
+			["Faction"] = "Alliance",
+			["CharName"] = "Oliveryo",
+			["RealmName"] = "RetroWoW",
+			["Class"] = "Warrior",
+		},
+		["UI"] = {
+			["MainFrameAnchor"] = {
+				["sTo"] = "TOPLEFT",
+				["nX"] = 1041.777793582829,
+				["sFrom"] = "TOPLEFT",
+				["nY"] = -306.4888392367136,
+			},
+			["MainFrameSize"] = {
+				["nWidth"] = 320.0000043767834,
+				["nHeight"] = 320.0000043767834,
+			},
+			["Locked"] = true,
+		},
+	},
+}

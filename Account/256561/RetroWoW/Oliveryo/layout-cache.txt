@@ -11,8 +11,8 @@ Y: -673
 W: 348
 H: 158
 Frame: ChatFrame3
-FrameLevel: 6
-X: 1168
+FrameLevel: 8
+X: 1
 Y: -674
 W: 348
 H: 158

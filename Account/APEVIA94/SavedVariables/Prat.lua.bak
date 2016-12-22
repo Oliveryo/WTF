@@ -1,0 +1,80 @@
+
+PratDB = {
+	["namespaces"] = {
+		["PlayerNames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["classes"] = {
+						["Spurgu"] = "Unknown",
+						["Yifu"] = "Unknown",
+						["Sodapoppinz"] = "Unknown",
+						["Rottenspirit"] = "Unknown",
+						["Icaros"] = "Unknown",
+						["Wolbachia"] = "Rogue",
+						["Minro"] = "Unknown",
+						["Bringthepom"] = "Mage",
+						["Djdunk"] = "Unknown",
+						["Kazuk"] = "Unknown",
+						["Rubbe"] = "Unknown",
+						["Allizzee"] = "Rogue",
+						["Ezcake"] = "Unknown",
+						["Oduim"] = "Rogue",
+						["Kronstadt"] = "Unknown",
+						["Philipman"] = "WARRIOR",
+						["Gerderberlve"] = "Unknown",
+						["Mactabilis"] = "Unknown",
+						["Xcidius"] = "Unknown",
+						["Mastnapizda"] = "Warrior",
+						["Dusith"] = "Unknown",
+						["Chobotank"] = "Unknown",
+						["Adamsxx"] = "Unknown",
+						["Kamatoza"] = "Unknown",
+						["Knapsack"] = "Shaman",
+						["Cakemr"] = "Unknown",
+						["Vekkasha"] = "Unknown",
+						["Zabor"] = "Unknown",
+						["Eddzaa"] = "Unknown",
+						["Olimagi"] = "Mage",
+						["Pansargunnar"] = "Unknown",
+						["Herko"] = "Unknown",
+						["Darthorc"] = "Warrior",
+					},
+					["levels"] = {
+						["Philipman"] = 60,
+						["Knapsack"] = 60,
+						["Bringthepom"] = 60,
+						["Mastnapizda"] = 60,
+						["Allizzee"] = 60,
+						["Oduim"] = 60,
+						["Wolbachia"] = 60,
+						["Olimagi"] = 60,
+						["Darthorc"] = 60,
+					},
+				},
+			},
+		},
+		["ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["LocalDefense"] = {
+							["r"] = 1.000000059138984,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
+						},
+						["General"] = {
+							["r"] = 1.000000059138984,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
+						},
+						["Trade"] = {
+							["r"] = 1.000000059138984,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
+						},
+					},
+				},
+			},
+		},
+	},
+}

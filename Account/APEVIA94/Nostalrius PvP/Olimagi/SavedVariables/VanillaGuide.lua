@@ -9,16 +9,30 @@ VanillaGuideDBPC = {
 			["Class"] = "Warrior",
 		},
 		["UI"] = {
-			["MainFrameSize"] = {
-				["nWidth"] = 320.0000744053165,
-				["nHeight"] = 320.0000043767834,
+			["StepFrameColor"] = {
+				["nR"] = 0.1098039215686275,
+				["nA"] = 0,
+				["nB"] = 0.4117647058823529,
+				["nG"] = 0.1098039215686275,
 			},
-			["Locked"] = true,
 			["MainFrameAnchor"] = {
 				["sTo"] = "TOPLEFT",
 				["sFrom"] = "TOPLEFT",
-				["nX"] = 1013.33304373617,
-				["nY"] = -223.9998490009753,
+				["nX"] = -14.93333960672277,
+				["nY"] = -482.7544038475755,
+			},
+			["MainFrameSize"] = {
+				["nWidth"] = 320.0000744053165,
+				["nHeight"] = 319.999998010553,
+			},
+			["Locked"] = true,
+			["ScrollFrameVisible"] = false,
+			["Layer"] = "BACKGROUND",
+			["MainFrameColor"] = {
+				["nR"] = 0,
+				["nA"] = 0,
+				["nB"] = 0,
+				["nG"] = 0,
 			},
 		},
 	},

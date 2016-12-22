@@ -12,6 +12,6 @@ aurae: disabled
 aux-addon: enabled
 LoseControl: disabled
 crafty: enabled
-cooldowns: disabled
+cooldowns: enabled
 rais_AutoShot: disabled
 SHunterTimers: disabled

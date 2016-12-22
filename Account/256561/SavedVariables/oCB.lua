@@ -4,8 +4,8 @@ oCBDB = {
 		["Default"] = {
 			["CastingBar"] = {
 				["edgeFile"] = "None",
-				["width"] = 394,
 				["texture"] = "BantoBar",
+				["width"] = 394,
 			},
 			["lock"] = false,
 			["Pos"] = {

@@ -2,6 +2,6 @@
 Postal_Characters = {
 	["RetroWoW|Alliance"] = {
 		["Xdhunt"] = 29615.796,
-		["Oliveryo"] = 33101.828,
+		["Oliveryo"] = 40708.75,
 	},
 }
