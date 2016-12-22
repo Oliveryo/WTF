@@ -4,10 +4,8 @@ pfUI_config = {
 		["other"] = {
 			["minimap"] = "zone",
 		},
-		["left"] = {
-			["center"] = "durability",
-			["right"] = "friends",
-			["left"] = "guild",
+		["xp"] = {
+			["showalways"] = "0",
 		},
 		["right"] = {
 			["center"] = "time",
@@ -17,40 +15,23 @@ pfUI_config = {
 		["micro"] = {
 			["enable"] = "0",
 		},
-		["xp"] = {
-			["showalways"] = "0",
+		["left"] = {
+			["center"] = "durability",
+			["right"] = "friends",
+			["left"] = "guild",
 		},
 	},
-	["disabled"] = {
+	["global"] = {
+		["errors_hide"] = "0",
+		["font_default"] = "arial",
+		["errors_limit"] = "1",
+		["force_region"] = "1",
+		["font_square"] = "arial",
+		["font_combat"] = "arial",
+		["hidewbuff"] = "0",
+		["hidebuff"] = "0",
 		["pixelperfect"] = "0",
-		["buff"] = "0",
-		["group"] = "0",
-		["bags"] = "0",
-		["minimap"] = "0",
-		["autoshift"] = "0",
-		["uf_tukui"] = "0",
-		["loot"] = "0",
-		["skin"] = "0",
-		["target"] = "0",
-		["raid"] = "0",
-		["eqcompare"] = "0",
-		["panel"] = "0",
-		["infight"] = "0",
-		["addons"] = "0",
-		["xpbar"] = "0",
-		["castbar"] = "0",
-		["mouseover"] = "0",
-		["tooltip"] = "0",
-		["pet"] = "0",
-		["sellvalue"] = "0",
-		["thirdparty"] = "0",
-		["player"] = "0",
-		["targettarget"] = "0",
-		["actionbar"] = "0",
-		["nameplates"] = "0",
-		["chat"] = "0",
-		["cooldown"] = "0",
-		["gui"] = "0",
+		["font_size"] = "12",
 	},
 	["castbar"] = {
 		["target"] = {
@@ -75,8 +56,8 @@ pfUI_config = {
 		},
 		["buff_size"] = "30",
 		["target"] = {
-			["height"] = "67",
 			["pheight"] = "25",
+			["height"] = "67",
 			["buffs"] = "top",
 			["pspace"] = "-3",
 			["width"] = "200",
@@ -84,16 +65,16 @@ pfUI_config = {
 		["raid"] = {
 			["show_missing"] = "0",
 			["clickcast"] = "",
-			["buffs_classonly"] = "0",
-			["pspace"] = "-3",
-			["clickcast_ctrl"] = "",
-			["clickcast_shift"] = "",
-			["buffs_hots"] = "0",
-			["buffs_procs"] = "0",
 			["debuffs_class"] = "1",
+			["pspace"] = "-3",
 			["debuffs_enable"] = "1",
 			["clickcast_alt"] = "",
+			["buffs_hots"] = "0",
+			["buffs_procs"] = "0",
+			["buffs_classonly"] = "0",
 			["invert_healthbar"] = "0",
+			["clickcast_shift"] = "",
+			["clickcast_ctrl"] = "",
 			["buffs_buffs"] = "0",
 		},
 		["pastel"] = "1",
@@ -102,7 +83,7 @@ pfUI_config = {
 		["pet"] = {
 			["pspace"] = "-3",
 		},
-		["dark"] = "0",
+		["debuff_size"] = "30",
 		["player"] = {
 			["pheight"] = "0",
 			["pspace"] = "-3",
@@ -114,7 +95,7 @@ pfUI_config = {
 			["width"] = "200",
 		},
 		["globalclick"] = "0",
-		["debuff_size"] = "30",
+		["dark"] = "0",
 		["ttarget"] = {
 			["pspace"] = "-3",
 		},
@@ -134,37 +115,36 @@ pfUI_config = {
 			["enable"] = "1",
 		},
 	},
-	["appearance"] = {
-		["infight"] = {
-			["common"] = "1",
-			["group"] = "0",
-			["screen"] = "0",
-		},
-		["cd"] = {
-			["threshold"] = "2",
-			["daycolor"] = "5555ff",
-			["mincolor"] = "55ffff",
-			["hourcolor"] = "55aaff",
-		},
-		["castbar"] = {
-			["channelcolor"] = ".9,.9,.7,.8",
-			["castbarcolor"] = ".7,.7,.9,.8",
-		},
-		["border"] = {
-			["groupframes"] = "-1",
-			["color"] = "0, 0, 0, 1",
-			["bags"] = "-1",
-			["panels"] = "-1",
-			["actionbars"] = "-1",
-			["default"] = "1",
-			["raidframes"] = "-1",
-			["background"] = "0, 0, 0, 1",
-			["unitframes"] = "2",
-			["chat"] = "-1",
-		},
-		["loot"] = {
-			["autoresize"] = "1",
-		},
+	["disabled"] = {
+		["pixelperfect"] = "0",
+		["buff"] = "0",
+		["group"] = "0",
+		["bags"] = "0",
+		["minimap"] = "0",
+		["autoshift"] = "0",
+		["loot"] = "0",
+		["uf_tukui"] = "0",
+		["skin"] = "0",
+		["target"] = "0",
+		["raid"] = "0",
+		["cooldown"] = "0",
+		["chat"] = "0",
+		["infight"] = "0",
+		["castbar"] = "0",
+		["xpbar"] = "0",
+		["addons"] = "0",
+		["pet"] = "0",
+		["tooltip"] = "0",
+		["mouseover"] = "0",
+		["sellvalue"] = "0",
+		["thirdparty"] = "0",
+		["player"] = "0",
+		["targettarget"] = "0",
+		["actionbar"] = "0",
+		["nameplates"] = "0",
+		["panel"] = "0",
+		["eqcompare"] = "0",
+		["gui"] = "0",
 	},
 	["position"] = {
 		["pfRaid14"] = {
@@ -172,38 +152,40 @@ pfUI_config = {
 			["scale"] = 0.8,
 			["ypos"] = -673.7784118034734,
 		},
-		["pfRaid20"] = {
+		["pfRaid17"] = {
 			["xpos"] = 166.0493820152913,
 			["scale"] = 0.8,
-			["ypos"] = -635.7784086576604,
+			["ypos"] = -749.7779979239002,
 		},
-		["pfGroup2"] = {
-			["ypos"] = -321.5307230699087,
-			["xpos"] = 262.5800910658158,
+		["pfBarBottomRight"] = {
+			["xpos"] = 659.9818103620482,
+			["scale"] = 1,
+			["ypos"] = -720.9130768779939,
 		},
-		["pfTarget"] = {
-			["xpos"] = 990.6659279932975,
-			["scale"] = 0.9,
-			["ypos"] = -602.8504321150306,
+		["pfRaid8"] = {
+			["xpos"] = 56.04938488755531,
+			["scale"] = 0.8,
+			["ypos"] = -711.7783449207532,
 		},
 		["pfBarShapeshift"] = {
 			["xpos"] = 739.0573297750997,
 			["scale"] = 0.6,
 			["ypos"] = -1050.050614353346,
 		},
-		["pfRaid1"] = {
-			["xpos"] = 1.049383861746716,
-			["scale"] = 0.8,
-			["ypos"] = -787.7778610126468,
+		["pfPet"] = {
+			["xpos"] = 706.0601650416605,
+			["scale"] = 1,
+			["ypos"] = -673.8104148431494,
 		},
 		["pfPlayer"] = {
 			["xpos"] = 493.9420572700731,
 			["scale"] = 0.9,
 			["ypos"] = -603.7597526187354,
 		},
-		["pfGroup4"] = {
-			["ypos"] = -431.5307377047779,
-			["xpos"] = 262.5800735586825,
+		["pfRaid12"] = {
+			["xpos"] = 111.0494097121232,
+			["scale"] = 0.8,
+			["ypos"] = -749.7779979239002,
 		},
 		["pfRaid6"] = {
 			["xpos"] = 56.04938488755531,
@@ -219,19 +201,19 @@ pfUI_config = {
 			["ypos"] = -266.5307332596073,
 			["xpos"] = 262.5800910658158,
 		},
-		["pfRaid33"] = {
-			["xpos"] = 331.049456488995,
+		["pfRaid26"] = {
+			["xpos"] = 276.0494666786937,
 			["scale"] = 0.8,
-			["ypos"] = -711.7783449207532,
+			["ypos"] = -787.7778610126468,
 		},
-		["pfRaid5"] = {
-			["xpos"] = 1.049383861746716,
-			["scale"] = 0.8,
-			["ypos"] = -635.7784086576604,
+		["pfGroup2"] = {
+			["ypos"] = -321.5307230699087,
+			["xpos"] = 262.5800910658158,
 		},
-		["pfTargetTarget"] = {
-			["ypos"] = -697.851420379028,
-			["xpos"] = 706.148260936436,
+		["pfBarBottomLeft"] = {
+			["xpos"] = 484.8681450939234,
+			["scale"] = 1.3,
+			["ypos"] = -417.2517096980834,
 		},
 		["pfRaid13"] = {
 			["xpos"] = 111.0494097121232,
@@ -243,25 +225,24 @@ pfUI_config = {
 			["scale"] = 0.8,
 			["ypos"] = -787.7778610126468,
 		},
-		["pfBarBottomRight"] = {
-			["xpos"] = 659.9818103620482,
-			["scale"] = 1,
-			["ypos"] = -720.9130768779939,
-		},
-		["pfRaid8"] = {
-			["xpos"] = 56.04938488755531,
-			["scale"] = 0.8,
-			["ypos"] = -711.7783449207532,
-		},
-		["pfBarBottomLeft"] = {
-			["xpos"] = 484.8681450939234,
-			["scale"] = 1.3,
-			["ypos"] = -417.2517096980834,
-		},
-		["pfRaid15"] = {
-			["xpos"] = 111.0494097121232,
+		["pfRaid20"] = {
+			["xpos"] = 166.0493820152913,
 			["scale"] = 0.8,
 			["ypos"] = -635.7784086576604,
+		},
+		["pfChatLeft"] = {
+			["xpos"] = -1.259471102664223,
+			["scale"] = 1,
+			["ypos"] = -653.3770692525432,
+		},
+		["pfTargetTarget"] = {
+			["ypos"] = -697.851420379028,
+			["xpos"] = 706.148260936436,
+		},
+		["pfTarget"] = {
+			["xpos"] = 990.6659279932975,
+			["scale"] = 0.9,
+			["ypos"] = -602.8504321150306,
 		},
 		["pfRaid32"] = {
 			["xpos"] = 331.049456488995,
@@ -273,59 +254,60 @@ pfUI_config = {
 			["scale"] = 0.8,
 			["ypos"] = -787.7778610126468,
 		},
-		["pfRaid27"] = {
-			["xpos"] = 276.0494666786937,
-			["scale"] = 0.8,
-			["ypos"] = -749.7779979239002,
-		},
-		["pfChatLeft"] = {
-			["xpos"] = -1.259471102664223,
-			["scale"] = 1,
-			["ypos"] = -653.3770692525432,
-		},
-		["pfRaid34"] = {
+		["pfRaid35"] = {
 			["xpos"] = 331.049456488995,
 			["scale"] = 0.8,
-			["ypos"] = -673.7784118034734,
+			["ypos"] = -635.7784086576604,
+		},
+		["pfRaid15"] = {
+			["xpos"] = 111.0494097121232,
+			["scale"] = 0.8,
+			["ypos"] = -635.7784086576604,
+		},
+		["pfRaid10"] = {
+			["xpos"] = 56.04938488755531,
+			["scale"] = 0.8,
+			["ypos"] = -635.7781985720608,
 		},
 		["pfRaid19"] = {
 			["xpos"] = 166.0493820152913,
 			["scale"] = 0.8,
 			["ypos"] = -673.7784118034734,
 		},
+		["pfRaid11"] = {
+			["xpos"] = 111.0494097121232,
+			["scale"] = 0.8,
+			["ypos"] = -787.7778610126468,
+		},
+		["pfRaid18"] = {
+			["xpos"] = 166.0493820152913,
+			["scale"] = 0.8,
+			["ypos"] = -711.7783449207532,
+		},
+		["pfChatInputBox"] = {
+			["xpos"] = -2.774726073202658,
+			["scale"] = 1,
+			["ypos"] = -809.7227724925459,
+		},
+		["pfBarVertical"] = {
+			["xpos"] = 1915.609097171497,
+			["scale"] = 0.6,
+			["ypos"] = -1089.404128989002,
+		},
+		["pfRaid34"] = {
+			["xpos"] = 331.049456488995,
+			["scale"] = 0.8,
+			["ypos"] = -673.7784118034734,
+		},
+		["pfRaid21"] = {
+			["xpos"] = 221.0493893327259,
+			["scale"] = 0.8,
+			["ypos"] = -787.7778610126468,
+		},
 		["pfRaid4"] = {
 			["xpos"] = 1.049383861746716,
 			["scale"] = 0.8,
 			["ypos"] = -673.7784118034734,
-		},
-		["pfGroup3"] = {
-			["ypos"] = -376.5307829087432,
-			["xpos"] = 262.5800910658158,
-		},
-		["pfRaid36"] = {
-			["xpos"] = 386.0493062422299,
-			["scale"] = 0.8,
-			["ypos"] = -787.7778610126468,
-		},
-		["pfBarVertical"] = {
-			["xpos"] = 1862.933774549566,
-			["scale"] = 0.6,
-			["ypos"] = -1088.087242422027,
-		},
-		["pfRaid25"] = {
-			["xpos"] = 221.0493893327259,
-			["scale"] = 0.8,
-			["ypos"] = -635.7784086576604,
-		},
-		["pfRaid28"] = {
-			["xpos"] = 276.0494666786937,
-			["scale"] = 0.8,
-			["ypos"] = -711.7783449207532,
-		},
-		["pfRaid7"] = {
-			["xpos"] = 56.04938488755531,
-			["scale"] = 0.8,
-			["ypos"] = -749.7779979239002,
 		},
 		["pfRaid40"] = {
 			["xpos"] = 386.0489560995639,
@@ -337,35 +319,35 @@ pfUI_config = {
 			["scale"] = 0.8,
 			["ypos"] = -673.7784118034734,
 		},
-		["pfChatInputBox"] = {
-			["xpos"] = -2.774726073202658,
-			["scale"] = 1,
-			["ypos"] = -809.7227724925459,
-		},
-		["pfRaid10"] = {
-			["xpos"] = 56.04938488755531,
+		["pfRaid36"] = {
+			["xpos"] = 386.0493062422299,
 			["scale"] = 0.8,
-			["ypos"] = -635.7781985720608,
+			["ypos"] = -787.7778610126468,
 		},
-		["pfRaid23"] = {
+		["pfRaid25"] = {
 			["xpos"] = 221.0493893327259,
 			["scale"] = 0.8,
-			["ypos"] = -711.7783449207532,
+			["ypos"] = -635.7784086576604,
 		},
 		["pfRaid22"] = {
 			["xpos"] = 221.0493893327259,
 			["scale"] = 0.8,
 			["ypos"] = -749.7779979239002,
 		},
-		["pfRaid11"] = {
-			["xpos"] = 111.0494097121232,
-			["scale"] = 0.8,
-			["ypos"] = -787.7778610126468,
-		},
-		["pfRaid21"] = {
+		["pfRaid23"] = {
 			["xpos"] = 221.0493893327259,
 			["scale"] = 0.8,
-			["ypos"] = -787.7778610126468,
+			["ypos"] = -711.7783449207532,
+		},
+		["pfRaid7"] = {
+			["xpos"] = 56.04938488755531,
+			["scale"] = 0.8,
+			["ypos"] = -749.7779979239002,
+		},
+		["pfRaid28"] = {
+			["xpos"] = 276.0494666786937,
+			["scale"] = 0.8,
+			["ypos"] = -711.7783449207532,
 		},
 		["pfRaid38"] = {
 			["xpos"] = 386.0493062422299,
@@ -377,10 +359,9 @@ pfUI_config = {
 			["scale"] = 1,
 			["ypos"] = -787.2833195111325,
 		},
-		["pfRaid18"] = {
-			["xpos"] = 166.0493820152913,
-			["scale"] = 0.8,
-			["ypos"] = -711.7783449207532,
+		["pfGroup3"] = {
+			["ypos"] = -376.5307829087432,
+			["xpos"] = 262.5800910658158,
 		},
 		["pfRaid30"] = {
 			["xpos"] = 276.0494666786937,
@@ -392,10 +373,10 @@ pfUI_config = {
 			["scale"] = 0.8,
 			["ypos"] = -749.7779979239002,
 		},
-		["pfRaid35"] = {
-			["xpos"] = 331.049456488995,
+		["pfRaid27"] = {
+			["xpos"] = 276.0494666786937,
 			["scale"] = 0.8,
-			["ypos"] = -635.7784086576604,
+			["ypos"] = -749.7779979239002,
 		},
 		["pfRaid24"] = {
 			["xpos"] = 221.0493893327259,
@@ -422,29 +403,28 @@ pfUI_config = {
 			["ypos"] = -673.7784118034734,
 		},
 		["pfChatRight"] = {
-			["xpos"] = 1137.542232915859,
+			["xpos"] = 1167.566406300489,
 			["scale"] = 1,
-			["ypos"] = -653.0739857608194,
+			["ypos"] = -653.8641177010043,
 		},
-		["pfRaid26"] = {
-			["xpos"] = 276.0494666786937,
+		["pfRaid33"] = {
+			["xpos"] = 331.049456488995,
+			["scale"] = 0.8,
+			["ypos"] = -711.7783449207532,
+		},
+		["pfGroup4"] = {
+			["ypos"] = -431.5307377047779,
+			["xpos"] = 262.5800735586825,
+		},
+		["pfRaid1"] = {
+			["xpos"] = 1.049383861746716,
 			["scale"] = 0.8,
 			["ypos"] = -787.7778610126468,
 		},
-		["pfRaid12"] = {
-			["xpos"] = 111.0494097121232,
+		["pfRaid5"] = {
+			["xpos"] = 1.049383861746716,
 			["scale"] = 0.8,
-			["ypos"] = -749.7779979239002,
-		},
-		["pfPet"] = {
-			["xpos"] = 706.0601650416605,
-			["scale"] = 1,
-			["ypos"] = -673.8104148431494,
-		},
-		["pfRaid17"] = {
-			["xpos"] = 166.0493820152913,
-			["scale"] = 0.8,
-			["ypos"] = -749.7779979239002,
+			["ypos"] = -635.7784086576604,
 		},
 	},
 	["nameplates"] = {
@@ -464,11 +444,11 @@ pfUI_config = {
 		["hide_shapeshift"] = "0",
 		["rangecolor"] = "1,0.1,0.1,1",
 		["hide_bottom"] = "0",
-		["hide_time"] = "1",
 		["hide_bottomright"] = "0",
+		["hide_vertical"] = "0",
 		["background"] = "1",
 		["icon_size"] = "30",
-		["hide_vertical"] = "0",
+		["hide_time"] = "1",
 	},
 	["chat"] = {
 		["global"] = {
@@ -490,21 +470,41 @@ pfUI_config = {
 			["time"] = "1",
 			["input_width"] = "380",
 			["timeformat"] = "%H:%M:%S",
-			["input_height"] = "0",
 			["timecolor"] = "dddddd",
+			["input_height"] = "0",
 		},
 	},
-	["global"] = {
-		["errors_hide"] = "0",
-		["font_default"] = "arial",
-		["errors_limit"] = "1",
-		["force_region"] = "1",
-		["font_size"] = "16",
-		["font_square"] = "arial",
-		["hidewbuff"] = "0",
-		["hidebuff"] = "0",
-		["pixelperfect"] = "0",
-		["font_combat"] = "arial",
+	["appearance"] = {
+		["infight"] = {
+			["common"] = "1",
+			["group"] = "0",
+			["screen"] = "0",
+		},
+		["cd"] = {
+			["threshold"] = "2",
+			["daycolor"] = "5555ff",
+			["hourcolor"] = "55aaff",
+			["mincolor"] = "55ffff",
+		},
+		["castbar"] = {
+			["castbarcolor"] = ".7,.7,.9,.8",
+			["channelcolor"] = ".9,.9,.7,.8",
+		},
+		["border"] = {
+			["groupframes"] = "-1",
+			["color"] = "0, 0, 0, 1",
+			["bags"] = "-1",
+			["panels"] = "-1",
+			["actionbars"] = "-1",
+			["default"] = "1",
+			["chat"] = "-1",
+			["background"] = "0, 0, 0, 1",
+			["unitframes"] = "2",
+			["raidframes"] = "-1",
+		},
+		["loot"] = {
+			["autoresize"] = "1",
+		},
 	},
 }
 pfUI_init = {

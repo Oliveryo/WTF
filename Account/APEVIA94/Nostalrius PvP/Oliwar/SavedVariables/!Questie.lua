@@ -40,8 +40,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "Bijou's Belongings",
 		["level"] = 59,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[3777696418] = {
 		["objective1"] = {
@@ -53,8 +53,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "The Graveyards of Alterac",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "PvP",
+		["tracked"] = false,
 	},
 	[2755956098] = {
 		["objective1"] = {
@@ -63,16 +63,13 @@ QuestieTrackedQuests = {
 			["type"] = "item",
 			["desc"] = "The Deed to Brill: 0/1",
 		},
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["objective2"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "The Deed to Caer Darrow: 0/1",
 		},
-		["questTag"] = "Dungeon",
-		["tracked"] = false,
-		["questName"] = "Barov Family Fortune",
 		["level"] = 60,
 		["objective4"] = {
 			["notes"] = {
@@ -80,12 +77,15 @@ QuestieTrackedQuests = {
 			["type"] = "item",
 			["desc"] = "The Deed to Tarren Mill: 0/1",
 		},
+		["questName"] = "Barov Family Fortune",
 		["objective3"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "The Deed to Southshore: 0/1",
 		},
+		["leaderboards"] = 4,
+		["questTag"] = "Dungeon",
 	},
 	[3755224288] = {
 		["objective1"] = {
@@ -94,16 +94,13 @@ QuestieTrackedQuests = {
 			["type"] = "monster",
 			["desc"] = "Molten Giant slain: 0/1",
 		},
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["objective2"] = {
 			["notes"] = {
 			},
 			["type"] = "monster",
 			["desc"] = "Firelord slain: 0/1",
 		},
-		["questTag"] = "Raid",
-		["tracked"] = false,
-		["questName"] = "The Molten Core",
 		["level"] = 60,
 		["objective4"] = {
 			["notes"] = {
@@ -111,12 +108,15 @@ QuestieTrackedQuests = {
 			["type"] = "monster",
 			["desc"] = "Lava Surger slain: 0/1",
 		},
+		["questName"] = "The Molten Core",
 		["objective3"] = {
 			["notes"] = {
 			},
 			["type"] = "monster",
 			["desc"] = "Ancient Core Hound slain: 0/1",
 		},
+		["leaderboards"] = 4,
+		["questTag"] = "Raid",
 	},
 	[839408744] = {
 		["objective1"] = {
@@ -135,7 +135,7 @@ QuestieTrackedQuests = {
 			["notes"] = {
 			},
 			["type"] = "item",
-			["desc"] = "Tough Wolf Meat: 1/8",
+			["desc"] = "Tough Wolf Meat: 3/8",
 		},
 		["leaderboards"] = 1,
 		["questName"] = "Dwarven Outfitters",
@@ -144,9 +144,9 @@ QuestieTrackedQuests = {
 		["arrowPoint"] = {
 			["hash"] = 3557100717,
 			["c"] = 2,
-			["dist"] = 1901.563367744737,
-			["yDelta"] = 1378.778867917037,
-			["xDelta"] = -1309.546514994454,
+			["dist"] = 96.31822793675066,
+			["yDelta"] = 45.60941904508398,
+			["xDelta"] = -84.8350277140627,
 			["y"] = 0.7401,
 			["x"] = 0.2924,
 			["title"] = "|cFFFFFF00[1] Dwarven Outfitters|r",
@@ -169,8 +169,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "The Great Fras Siabi",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[3929887800] = {
 		["objective1"] = {
@@ -182,8 +182,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "Krastinov's Bag of Horrors",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[3141699824] = {
 		["objective1"] = {
@@ -195,8 +195,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "En-Ay-Es-Tee-Why",
 		["level"] = 59,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[4246966434] = {
 		["objective1"] = {
@@ -208,8 +208,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "The Legend of Korrak",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "Raid",
+		["tracked"] = false,
 	},
 	[698120285] = {
 		["tracked"] = false,
@@ -228,8 +228,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "The Battle for Alterac",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "PvP",
+		["tracked"] = false,
 	},
 	[2678380656] = {
 		["objective1"] = {
@@ -238,16 +238,13 @@ QuestieTrackedQuests = {
 			["type"] = "item",
 			["desc"] = "Gemstone of Spirestone: 0/1",
 		},
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["objective2"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "Gemstone of Smolderthorn: 0/1",
 		},
-		["questTag"] = "Dungeon",
-		["tracked"] = false,
-		["questName"] = "Seal of Ascension",
 		["level"] = 60,
 		["objective4"] = {
 			["notes"] = {
@@ -255,12 +252,15 @@ QuestieTrackedQuests = {
 			["type"] = "item",
 			["desc"] = "Unadorned Seal of Ascension: 0/1",
 		},
+		["questName"] = "Seal of Ascension",
 		["objective3"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "Gemstone of Bloodaxe: 0/1",
 		},
+		["leaderboards"] = 4,
+		["questTag"] = "Dungeon",
 	},
 	[776018864] = {
 		["objective1"] = {
@@ -297,8 +297,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "Mother's Milk",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[222378296] = {
 		["objective1"] = {
@@ -333,8 +333,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "Towers and Bunkers",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "PvP",
+		["tracked"] = false,
 	},
 	[1832316216] = {
 		["objective1"] = {
@@ -346,8 +346,8 @@ QuestieTrackedQuests = {
 		["leaderboards"] = 1,
 		["questName"] = "Unfinished Gordok Business",
 		["level"] = 60,
-		["tracked"] = false,
 		["questTag"] = "Dungeon",
+		["tracked"] = false,
 	},
 	[3350102925] = {
 		["objective1"] = {
@@ -356,16 +356,13 @@ QuestieTrackedQuests = {
 			["type"] = "item",
 			["desc"] = "Bolt of Runecloth: 0/4",
 		},
-		["leaderboards"] = 4,
+		["tracked"] = false,
 		["objective2"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "Rugged Leather: 0/8",
 		},
-		["questTag"] = "Dungeon",
-		["tracked"] = false,
-		["questName"] = "The Gordok Ogre Suit",
 		["level"] = 60,
 		["objective4"] = {
 			["type"] = "item",
@@ -374,12 +371,15 @@ QuestieTrackedQuests = {
 			},
 			["desc"] = "Ogre Tannin: 1/1",
 		},
+		["questName"] = "The Gordok Ogre Suit",
 		["objective3"] = {
 			["notes"] = {
 			},
 			["type"] = "item",
 			["desc"] = "Rune Thread: 0/2",
 		},
+		["leaderboards"] = 4,
+		["questTag"] = "Dungeon",
 	},
 }
 QuestieConfig = {

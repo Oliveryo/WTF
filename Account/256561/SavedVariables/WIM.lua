@@ -54,7 +54,7 @@ WIM_Data = {
 			["b"] = 1,
 		},
 	},
-	["fontSize"] = 12,
+	["fontSize"] = 13,
 	["enableAlias"] = true,
 	["supressWisps"] = true,
 	["showChangeLogOnNewVersion"] = true,
@@ -88,10 +88,10 @@ WIM_Data = {
 	},
 	["hookWispParse"] = true,
 	["showShortcutBar"] = true,
-	["windowSize"] = 1,
+	["windowSize"] = 0.89,
 	["enableWIM"] = true,
 	["popOnSend"] = true,
-	["showMiniMap"] = true,
+	["showMiniMap"] = false,
 	["useEscape"] = true,
 	["enableHistory"] = true,
 	["winLoc"] = {
@@ -101,7 +101,7 @@ WIM_Data = {
 	["enableFilter"] = true,
 	["winSize"] = {
 		["height"] = 256,
-		["width"] = 384,
+		["width"] = 394,
 	},
 	["sortAlpha"] = false,
 	["showToolTips"] = true,
@@ -121,4 +121,48 @@ WIM_Filters = {
 	["^YOU HAVE THE PLAGUE!"] = "Ignore",
 }
 WIM_History = {
+	["Moomai"] = {
+		[1] = {
+			["type"] = 1,
+			["time"] = "02:07",
+			["from"] = "Moomai",
+			["date"] = "12/21/16",
+			["msg"] = "not leader they invited someone only need 2 tanks...",
+			["stamp"] = 1482282457,
+		},
+		[2] = {
+			["type"] = 2,
+			["time"] = "02:07",
+			["from"] = "Olimagi",
+			["date"] = "12/21/16",
+			["msg"] = "okay np :D",
+			["stamp"] = 1482282466,
+		},
+	},
+	["Darthorc"] = {
+		[1] = {
+			["type"] = 1,
+			["time"] = "21:59",
+			["from"] = "Darthorc",
+			["date"] = "12/20/16",
+			["msg"] = "Need mages for guild ZG",
+			["stamp"] = 1482267578,
+		},
+		[2] = {
+			["type"] = 2,
+			["time"] = "22:01",
+			["from"] = "Olimagi",
+			["date"] = "12/20/16",
+			["msg"] = "Damn I promised my gf to help her with her website tonight",
+			["stamp"] = 1482267712,
+		},
+		[3] = {
+			["type"] = 2,
+			["time"] = "22:01",
+			["from"] = "Olimagi",
+			["date"] = "12/20/16",
+			["msg"] = "are you starting now?",
+			["stamp"] = 1482267719,
+		},
+	},
 }

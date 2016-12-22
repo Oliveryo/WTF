@@ -1,11 +1,8 @@
 
 cyCircledDB = {
-	["disabled"] = {
-		["Default"] = true,
-	},
 	["profiles"] = {
 		["Default"] = {
-			["minimapPosition"] = 23.84095017009943,
+			["minimapPosition"] = 358.0174144386444,
 			["detachedTooltip"] = {
 				["fontSizePercent"] = 1,
 			},

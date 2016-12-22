@@ -1,13 +1,6 @@
 
 VanillaGuideDBPC = {
 	["global"] = {
-		["CharInfo"] = {
-			["Race"] = "Human",
-			["Faction"] = "Alliance",
-			["CharName"] = "Oliveryo",
-			["RealmName"] = "RetroWoW",
-			["Class"] = "Warrior",
-		},
 		["UI"] = {
 			["StepFrameColor"] = {
 				["nR"] = 0.1098039215686275,
@@ -24,8 +17,8 @@ VanillaGuideDBPC = {
 			["Layer"] = "BACKGROUND",
 			["MainFrameAnchor"] = {
 				["sTo"] = "TOPLEFT",
-				["nX"] = -14.93333960672277,
 				["sFrom"] = "TOPLEFT",
+				["nX"] = -14.93333960672277,
 				["nY"] = -482.7544038475755,
 			},
 			["MainFrameColor"] = {
@@ -34,6 +27,13 @@ VanillaGuideDBPC = {
 				["nB"] = 0,
 				["nG"] = 0,
 			},
+		},
+		["CharInfo"] = {
+			["Race"] = "Human",
+			["Faction"] = "Alliance",
+			["CharName"] = "Oliveryo",
+			["RealmName"] = "RetroWoW",
+			["Class"] = "Warrior",
 		},
 	},
 }

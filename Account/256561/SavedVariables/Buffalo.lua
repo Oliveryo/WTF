@@ -14,20 +14,20 @@ BuffaloDB = {
 			["cols"] = {
 				["debuff"] = 6,
 			},
+			["locked"] = true,
 			["padding"] = {
 				["debuff"] = {
 					["y"] = 5,
 					["x"] = 4,
 				},
 			},
-			["locked"] = true,
+			["growRight"] = {
+				["debuff"] = true,
+			},
 			["yPos"] = {
 				["debuff"] = 106.9874834254977,
 				["buff"] = 803.4073892822561,
 				["weapon"] = 37.23453437966722,
-			},
-			["growRight"] = {
-				["debuff"] = true,
 			},
 		},
 	},

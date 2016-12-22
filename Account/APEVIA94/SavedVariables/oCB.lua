@@ -7,8 +7,8 @@ oCBDB = {
 				["edgeFile"] = "None",
 				["height"] = 26,
 				["timeSize"] = 14,
-				["width"] = 258,
 				["texture"] = "BantoBar",
+				["width"] = 258,
 			},
 			["lock"] = false,
 			["Pos"] = {

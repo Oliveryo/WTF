@@ -30,33 +30,34 @@ BActionSets = {
 	[10] = {
 		["vis"] = 1,
 	},
-	["menu"] = {
-		["vis"] = 1,
-	},
-	["key"] = {
-		["vis"] = 1,
-	},
-	["pet"] = {
-		["vis"] = 1,
-	},
 	["bags"] = {
 		["vis"] = 1,
 	},
 	["g"] = {
-		["altCast"] = 1,
+		["numActionBars"] = 10,
 		["tooltips"] = 1,
 		["colorOutOfRange"] = 1,
 		["version"] = "6.8.21",
-		["numActionBars"] = 10,
+		["quickMove"] = 2,
 		["buttonLocked"] = 1,
+		["altCast"] = 1,
 		["rangeColor"] = {
 			["r"] = 1,
 			["g"] = 0.5,
 			["b"] = 0.5,
 		},
-		["quickMove"] = 2,
 	},
+	["key"] = {
+		["vis"] = 1,
+	},
+	["menu"] = {
+		["vis"] = 1,
+	},
+	["version"] = "6.8.21",
 	["class"] = {
+		["vis"] = 1,
+	},
+	["pet"] = {
 		["vis"] = 1,
 	},
 }

@@ -2,7 +2,7 @@
 LunaDB = {
 	["profiles"] = {
 		["Default"] = {
-			["minimapPosition"] = 134.3227281117111,
+			["minimapPosition"] = 13.84890653540228,
 			["texture"] = "Armory",
 			["RangePolRate"] = 1.5,
 			["detachedTooltip"] = {
@@ -118,9 +118,8 @@ LunaDB = {
 						["enabled"] = false,
 					},
 					["scale"] = 1.31,
-					["totemBar"] = {
+					["reckStacks"] = {
 						["enabled"] = false,
-						["hide"] = false,
 					},
 					["auras"] = {
 						["timertextenabled"] = false,
@@ -145,7 +144,7 @@ LunaDB = {
 					},
 					["size"] = {
 						["y"] = 20,
-						["x"] = 299,
+						["x"] = 195,
 					},
 					["healthBar"] = {
 						["enabled"] = false,
@@ -168,10 +167,15 @@ LunaDB = {
 					["druidBar"] = {
 						["enabled"] = false,
 					},
-					["reckStacks"] = {
+					["totemBar"] = {
 						["enabled"] = false,
+						["hide"] = false,
 					},
 					["combatText"] = {
+						["enabled"] = false,
+					},
+					["highlight"] = {
+						["ondebuff"] = false,
 						["enabled"] = false,
 					},
 					["indicators"] = {
@@ -205,18 +209,14 @@ LunaDB = {
 							},
 						},
 					},
-					["highlight"] = {
-						["ondebuff"] = false,
-						["enabled"] = false,
-					},
 					["position"] = {
-						["y"] = -615.1768133587165,
-						["x"] = 506.3549703242396,
+						["y"] = -569.6657562974248,
+						["x"] = 567.5105151730762,
 					},
 					["powerBar"] = {
 						["vertical"] = false,
 						["hide"] = false,
-						["ticker"] = true,
+						["ticker"] = false,
 						["size"] = 3,
 					},
 				},

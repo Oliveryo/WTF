@@ -1,11 +1,11 @@
 
 aurae_settings = {
 	["color"] = "school",
-	["growth"] = "up",
+	["alpha"] = 0.85,
 	["colors"] = {
 	},
 	["arcanist"] = false,
-	["alpha"] = 0.85,
-	["invert"] = false,
 	["scale"] = 1,
+	["invert"] = false,
+	["growth"] = "up",
 }

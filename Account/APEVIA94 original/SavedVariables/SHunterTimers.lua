@@ -1,2 +1,0 @@
-
-SHTvars = nil

@@ -1,2 +1,0 @@
-
-BuffaloDB = nil

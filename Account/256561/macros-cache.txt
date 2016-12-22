@@ -1,0 +1,19 @@
+MACRO 1 " " Ability_BackStab
+/in 290 /s no
+/in 590 /s no
+/in 890 /s no
+/in 1190 /s no
+/in 1490 /s no
+/in 1790 /s no
+/in 2090 /s no
+/in 2390 /s no
+/in 2690 /s no
+/in 2990 /s no
+/in 3290 /s no
+/in 3590 /s no
+/in 3890 /s no
+/in 4190 /s no
+/in 4490 /s no
+/in 4790 /s no
+/in 5090 /s no
+END

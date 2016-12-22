@@ -14,19 +14,19 @@ VanillaGuideDBPC = {
 				["sFrom"] = "TOPLEFT",
 				["nY"] = -482.7544038475755,
 			},
-			["Layer"] = "BACKGROUND",
 			["MainFrameSize"] = {
 				["nWidth"] = 320.0000744053165,
 				["nHeight"] = 319.999998010553,
 			},
 			["Locked"] = true,
+			["ScrollFrameVisible"] = false,
+			["Layer"] = "BACKGROUND",
 			["MainFrameColor"] = {
 				["nR"] = 0,
 				["nA"] = 0,
 				["nB"] = 0,
 				["nG"] = 0,
 			},
-			["ScrollFrameVisible"] = false,
 		},
 		["CharInfo"] = {
 			["Race"] = "Human",

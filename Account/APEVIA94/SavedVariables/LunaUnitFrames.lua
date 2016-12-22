@@ -2,7 +2,7 @@
 LunaDB = {
 	["profiles"] = {
 		["Default"] = {
-			["minimapPosition"] = 349.7510170121666,
+			["minimapPosition"] = 13.84890653540228,
 			["texture"] = "Armory",
 			["RangePolRate"] = 1.5,
 			["detachedTooltip"] = {
