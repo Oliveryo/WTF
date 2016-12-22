@@ -10,11 +10,15 @@ aux-addon: enabled
 SHunterTimers: disabled
 LoseControl: disabled
 MoveAnything: disabled
-crafty: disabled
+crafty: enabled
 WIM: disabled
 Atlas: enabled
 AtlasLoot: enabled
-Prat: disabled
+Prat: enabled
 MCP: disabled
 LunaUnitFrames: enabled
 VanillaGuide: enabled
+BigWigs_RazuviousAssistant: disabled
+BigWigs_NefCount: disabled
+BigWigs_LoathebTactical: disabled
+rais_AutoShot: disabled

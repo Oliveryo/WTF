@@ -114,8 +114,7 @@ LunaDB = {
 					["incheal"] = {
 						["enabled"] = false,
 					},
-					["highlight"] = {
-						["ondebuff"] = false,
+					["portrait"] = {
 						["enabled"] = false,
 					},
 					["scale"] = 1.31,
@@ -152,7 +151,6 @@ LunaDB = {
 						["enabled"] = false,
 					},
 					["tags"] = {
-						["enabled"] = false,
 						["bartags"] = {
 							["healthBar"] = {
 								["center"] = "",
@@ -165,29 +163,20 @@ LunaDB = {
 								["center"] = "",
 							},
 						},
+						["enabled"] = false,
 					},
 					["druidBar"] = {
 						["enabled"] = false,
 					},
-					["powerBar"] = {
-						["vertical"] = false,
-						["size"] = 3,
-						["ticker"] = false,
-						["hide"] = false,
+					["reckStacks"] = {
+						["enabled"] = false,
 					},
 					["combatText"] = {
 						["enabled"] = false,
 					},
-					["position"] = {
-						["y"] = -569.6657562974248,
-						["x"] = 567.5105151730762,
-					},
-					["portrait"] = {
-						["enabled"] = false,
-					},
 					["indicators"] = {
 						["icons"] = {
-							["raidTarget"] = {
+							["rezz"] = {
 								["enabled"] = false,
 							},
 							["pvprank"] = {
@@ -199,25 +188,36 @@ LunaDB = {
 							["leader"] = {
 								["enabled"] = false,
 							},
-							["ready"] = {
+							["pvp"] = {
 								["enabled"] = false,
 							},
 							["status"] = {
 								["enabled"] = false,
 							},
-							["rezz"] = {
+							["raidTarget"] = {
 								["enabled"] = false,
 							},
 							["masterLoot"] = {
 								["enabled"] = false,
 							},
-							["pvp"] = {
+							["ready"] = {
 								["enabled"] = false,
 							},
 						},
 					},
-					["reckStacks"] = {
+					["highlight"] = {
+						["ondebuff"] = false,
 						["enabled"] = false,
+					},
+					["position"] = {
+						["y"] = -569.6657562974248,
+						["x"] = 567.5105151730762,
+					},
+					["powerBar"] = {
+						["vertical"] = false,
+						["hide"] = false,
+						["ticker"] = false,
+						["size"] = 3,
 					},
 				},
 				["target"] = {
@@ -269,7 +269,7 @@ LunaDB = {
 						},
 					},
 				},
-				["party"] = {
+				["targettarget"] = {
 					["barorder"] = {
 						["horizontal"] = {
 							[1] = "portrait",
@@ -292,7 +292,7 @@ LunaDB = {
 						},
 					},
 				},
-				["targettarget"] = {
+				["party"] = {
 					["barorder"] = {
 						["horizontal"] = {
 							[1] = "portrait",

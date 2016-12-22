@@ -33,7 +33,7 @@ FrameLevel: 6
 X: 342
 Y: -52
 Frame: AuxFrame
-FrameLevel: 11
+FrameLevel: 9
 X: 379
 Y: -96
 Frame: KLHTM_Frame
@@ -41,15 +41,15 @@ FrameLevel: 1
 X: 443
 Y: -626
 Frame: DPSMate_MiniMap
-FrameLevel: 5
-X: 1484
+FrameLevel: 7
+X: 1366
 Y: 0
 Frame: pfAddons
 FrameLevel: 1
 X: 554
 Y: -139
 Frame: enemyFramesSettings
-FrameLevel: 21
+FrameLevel: 19
 X: 143
 Y: -257
 Frame: enemyFramesTargetFrameCastbar
@@ -60,7 +60,3 @@ Frame: MPowa_MainFrame
 FrameLevel: 1
 X: 854
 Y: -64
-Frame: RingMenuSettingsFrame
-FrameLevel: 9
-X: 954
-Y: -157
